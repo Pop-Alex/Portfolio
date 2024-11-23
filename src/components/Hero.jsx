@@ -6,7 +6,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from '../hoc'
 const Hero = () => {
   return (
-   <motion.section  className='relative h-screen w-full mx-auto'>
+   <section  className='relative h-screen w-full mx-auto'>
       
     <div
         className={`absolute inset-0 top-[100px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
@@ -30,7 +30,7 @@ const Hero = () => {
           
         
     
-   </motion.section>
+   </section>
    
   )
 }
