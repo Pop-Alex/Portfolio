@@ -15,12 +15,12 @@ const Contact = () => {
       >
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.65]  p-9     "
+          className="flex-[0.65]  p-9 "
         >
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           
-          <h3 className={styles.sectionHeadText + "w-30 w-full md:text-[20px] sm:text-[10px]"}>alexandru.razvan99@yahoo.com</h3>
+          <h3 className={styles.sectionHeadText + "w-30 w-full md:text-[19px] sm:text-[10px] "}>alexandru.razvan99@yahoo.com</h3>
          
           <div className="flex  gap-5 p-2 text-3xl">
     
