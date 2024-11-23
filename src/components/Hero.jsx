@@ -20,16 +20,13 @@ const Hero = () => {
           </motion.div>
           <motion.div variants={textVariant()}>
           <h1 className={`${styles.heroHeadText} text-white`}>Hello</h1>
-          <h1 className={`${styles.heroSubText} text-white`}>My name is Alex</h1>
+          <h1 className={`${styles.heroSubText} text-white`}>My name is Alex </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             
           </p>
           </motion.div>
         </div>
         
-          
-        
-    
    </section>
    
   )
