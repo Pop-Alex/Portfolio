@@ -35,11 +35,11 @@ const Footer = () => {
        
         <div className='absolute bottom-0 right-0 md:bottom-2 md:right-2 lg:bottom-4 lg:right-4  '>
         
-        <div className="w-24 h-34 md:w-32 md:h-42 lg:w-48 lg:h-48 ">
+        {/* <div className="w-24 h-34 md:w-32 md:h-42 lg:w-48 lg:h-48 ">
        
         {scrolled && <Cat/> }
         
-        </div>
+        </div> */}
          
         </div>
         </motion.div>
