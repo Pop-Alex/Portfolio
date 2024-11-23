@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const Tech = () => {
   return (
     <motion.div variants={textVariant()} className='flex flex-col  justify-center gap-10'>
-      <h2 className={`${styles.sectionHeadText} `}>Thinks i know.</h2>
+      <h2 className={`${styles.sectionHeadText} `}>Things i know.</h2>
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       
     {technologies.map((technology) => (
